@@ -1,20 +1,33 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# NestJS Application Management System
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+## Introduction
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+This project is a **NestJS-based backend application** designed to manage applications, banks, branches, and users. It provides RESTful APIs for creating, updating, deleting, and retrieving data related to applications, banks, branches, and user accounts. The system also includes authentication and authorization features.
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+### Key Features
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+- **Bank and Branch Management**: Manage banks and their associated branches.
+- **Application Management**: Handle applications with status tracking (e.g., Draft, Submitted).
+- **Authentication**: Secure APIs using JWT-based authentication.
+- **Database**: Built with **Prisma** for seamless database interactions.
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+Before running the project, ensure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (v16 or higher)
+- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
+- [PostgreSQL](https://www.postgresql.org/) (or any other supported database)
+- [Git](https://git-scm.com/)
+
+### Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Natty-7r/Applicaion-management-safari.git
+   cd Applicaion-management-safari
+   ```
