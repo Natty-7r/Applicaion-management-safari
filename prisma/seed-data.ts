@@ -1,0 +1,30 @@
+export const banks = [
+  { value: 'Commercial Bank of Ethiopia' },
+  { value: 'Dashen Bank' },
+  { value: 'Awash Bank' },
+  { value: 'Bank of Abyssinia' },
+  { value: 'Wegagen Bank' },
+  { value: 'Nib International Bank' },
+  { value: 'Berhan Bank' },
+  { value: 'United Bank' },
+  { value: 'Abay Bank' },
+  { value: 'Lion International Bank' },
+  { value: 'Cooperative Bank of Oromia' },
+  { value: 'Bunna Bank' },
+  { value: 'Enat Bank' },
+  { value: 'Zemen Bank' },
+  { value: 'Hijra Bank' },
+]
+
+export const cities = [
+  'Addis Ababa',
+  'Dire Dawa',
+  'Mekelle',
+  'Gondar',
+  'Bahir Dar',
+  'Hawassa',
+  'Jimma',
+  'Adama (Nazret)',
+  'Harar',
+  'Shashemene',
+]
